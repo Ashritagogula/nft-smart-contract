@@ -1,4 +1,4 @@
-# 📘 NftCollection — ERC-721 NFT Smart Contract (From Scratch)
+# 📘 NftCollection — ERC-721 NFT Smart Contract 
 
 This repository contains a fully functioning ERC-721–style NFT smart contract implemented completely from scratch (no OpenZeppelin).  
 It includes:
@@ -9,19 +9,21 @@ It includes:
 - Minting, approvals, transfers, metadata & burning  
 
 
-##  Project Structure
-File / Folder
-nft-smart-contract/
-├── contracts/
-│ └── NftCollection.sol
-├── test/
-│ └── NftCollection.test.js
-├── hardhat.config.js
-├── package.json
-├── package-lock.json
-├── Dockerfile
-├── .dockerignore
-└── README.md
+File Structure:
+
+- contracts/
+  - NftCollection.sol     -> Main NFT smart contract
+
+- test/
+  - NftCollection.test.js -> Full automated test suite (21 tests)
+
+- Dockerfile              -> Runs Hardhat tests inside Docker
+- .dockerignore           -> Excludes unnecessary files from Docker build
+- hardhat.config.js       -> Hardhat configuration
+- package.json            -> Project dependencies and scripts
+- package-lock.json       -> Locked dependency versions
+- README.md               -> Project documentation
+- node_modules/           -> Auto-generated dependencies folder
 
 ## ⚙️ Features Implemented
 
