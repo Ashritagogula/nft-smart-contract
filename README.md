@@ -1,4 +1,4 @@
-# 📘 NftCollection — ERC-721 NFT Smart Contract 
+#  NftCollection — ERC-721 NFT Smart Contract 
 
 This repository contains a fully functioning ERC-721–style NFT smart contract implemented completely from scratch (no OpenZeppelin).  
 It includes:
@@ -25,7 +25,7 @@ File Structure:
 - README.md               -> Project documentation
 - node_modules/           -> Auto-generated dependencies folder
 
-## ⚙️ Features Implemented
+##  Features Implemented
 
 ### 🏷 ERC-721 Metadata
 - name()
@@ -40,14 +40,14 @@ File Structure:
   - minting paused  
   - tokenId > maxSupply  
 
-### 🔐 Approvals
+###  Approvals
 - approve(address, tokenId)
 - getApproved(tokenId)
 - setApprovalForAll(operator, bool)
 - isApprovedForAll(owner, operator)
 - Prevents self-approval
 
-### 🔄 Transfers
+###  Transfers
 Supports:
 - Owner transfer  
 - Approved transfer  
@@ -57,11 +57,11 @@ Rejects:
 - unauthorized calls  
 - nonexistent tokens  
 
-### 🔥 Burn
+###  Burn
 - Token owner can burn  
 - totalSupply decreases  
 
-### ⏸ Pause/Unpause Minting
+###  Pause/Unpause Minting
 - Admin-controlled  
 - Reverts with "Minting paused"  
 
