@@ -9,20 +9,17 @@ It includes:
 - Minting, approvals, transfers, metadata & burning  
 
 
-## 🧩 Project Structure
-
+##  Project Structure
+File / Folder
 nft-smart-contract/
-│
 ├── contracts/
-│   └── NftCollection.sol          # Main NFT contract
-│
+│ └── NftCollection.sol
 ├── test/
-│   └── NftCollection.test.js      # Full 21-test suite
-│
-├── hardhat.config.js              # Hardhat config
+│ └── NftCollection.test.js
+├── hardhat.config.js
 ├── package.json
 ├── package-lock.json
-├── Dockerfile                     # Reproducible build & test environment
+├── Dockerfile
 ├── .dockerignore
 └── README.md
 
@@ -66,14 +63,14 @@ Rejects:
 - Admin-controlled  
 - Reverts with "Minting paused"  
 
-### 📦 Supply Management
+###  Supply Management
 - maxSupply  
 - totalSupply  
 - tokenId range checks  
 
 ---
 
-## 🧪 Test Suite (21 Tests)
+##  Test Suite (21 Tests)
 
 Covers:
 
@@ -91,7 +88,7 @@ Covers:
 21 passing (6s)
 
 
-## 🐳 Docker Usage
+##  Docker Usage
 
 ### **Build the image**
 
@@ -107,8 +104,7 @@ Expected:
 
 21 passing
 
-
-## 🚀 Local Development
+##  Local Development
 
 ### Install dependencies
 
@@ -124,7 +120,7 @@ npx hardhat compile
 
 npx hardhat test
 
-## 🧱 Technologies Used
+## Technologies Used
 - Solidity 0.8.20  
 - Hardhat  
 - Ethers.js v5  
@@ -132,7 +128,7 @@ npx hardhat test
 - Waffle matchers  
 - Docker (Node 18 Alpine)  
 
-## 📝 Conclusion
+## Conclusion
 
 This project delivers:
 
